@@ -13,10 +13,10 @@ const Main = () => {
           <SpecialSection />
           <ReviewSection />
           <AboutSection />
-          
+
 
         </main>
-      </>  
+      </>
       );
     };
     export default Main;
