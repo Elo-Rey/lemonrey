@@ -11,8 +11,8 @@ const aboutData= {
    description:`Little Lemon has been a family business for 300 years spanning 9 generations of an excellent family of world class chefs 
     they are dedicated to making the best meals and giving the best experiences to their clients.
     The current chefs Mario and Adrian have not only continued the tradition, but keep pushing it further every day`,
-   image1: images.MarioandAdrianA,
-   image2:images.MarioandAdrianb,
+   /* image1: images.MarioandAdrianA,
+   image2:images.MarioandAdrianb, */
 }
 
 const AboutSection = () => {
@@ -31,13 +31,17 @@ const AboutSection = () => {
 
         <div className="about-image-holder">
           <div className="about-image-box">
-              <div className="about-image-1" style={
-                { backgroundImage: `url(${about.Data.image1})`}
-              }>
+              <div className="about-image-1" /* style={ */
+                /* { backgroundImage: `url(${aboutData.image1})`}
+              } */
+              >
+                <img src="./images/MarioandAdrianA" alt="mario and adrian cooking" height={200} width={200}/>
               </div>
-              <div className="about-image-2" style={
-                { backgroundImage: `url(${about.Data.image2})`}
-              }>
+              <div className="about-image-2" /* style={
+                { backgroundImage: `url(${aboutData.image2})`}
+              } */
+              >
+                <img src="./images/MarioandAdrianb" alt="mario and adrian cooking" height={200} width={200}/>
               </div>
             </div>
         </div>
