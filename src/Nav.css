@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Markazi+Text:wght@400;500;600;700&display=swap');
 .navbar{
     width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: rgba(210, 210, 0.65);
+    /* background-color: rgba(210, 210, 0.65); */
     z-index: 2;
     font-family: 'Karla', sans-serif;
+
 }
 
-.logo{
-    display: flex;
-    justify-content: left;
-    align-items: center;
+a.nav-elements{
+    text-decoration: none;
+    
 }
 
 .nav-links{
     flex: 1;
+    position:relative;
+    top: 0px;
+    left: 85%;
+    bottom: 50px;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -30,8 +35,15 @@
    text-transform: uppercase;
    font-size: 20px;
    font-weight: 600;
+   color:#333333;
 
    transition: all 0.3s ease-in-out;
+}
+
+.head{
+    color:#333333;
+    align-items: center;
+
 }
 
 .link:hover{

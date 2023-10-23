@@ -2,41 +2,31 @@ import React from "react";
 import lemonss from "C:/Users/NEC/Desktop/reycapstone/elo/src/images/lemonss.png";
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
+import './Nav.css'
 
 const Nav = () => {
-    const [toggle, setToggle] = useState(false);
+    /* const [toggle, setToggle] = useState(false); */
     return (
         <nav className="navbar">
-            <div className="logo">
-                
-            </div>
             <div className="nav-elements">
             <ul className="nav-links">
-                <li>
-                    <NavLink className= "link" to="/" style={ ({isActive})=>({
-                        color: isActive ? '#F4CE14' : '#495E57'
-                    }) }> HOME </NavLink>
+                <li className="link">
+                    <a className= "head" href="/"> HOME </a>
                 </li>
-                <li>
-                    <NavLink className= "link" to="/#Menu" style={ ({isActive})=>({
-                        color: isActive ? '#F4CE14' : '#495E57'
-                    }) }> MENU </NavLink>
-                </li><li>
-                    <NavLink className= "link" to= {"/Reservation"} style={ ({isActive})=>({
-                        color: isActive ? '#F4CE14' : '#495E57'
-                    }) }> RESERVATION </NavLink>
-                </li><li>
-                    <NavLink className= "link" to={"/OrderOnline"} style={ ({isActive})=>({
-                        color: isActive ? '#F4CE14' : '#495E57'
-                    }) }> ORDER ONLINE </NavLink>
-                </li><li>
-                    <NavLink className= "link" to="{/Login}" style={ ({isActive})=>({
-                        color: isActive ? '#F4CE14' : '#495E57'
-                    }) }> LOGIN </NavLink>
-                </li><li>
-                    <NavLink className= "link" to="/#About" style={ ({isActive})=>({
-                        color: isActive ? '#F4CE14' : '#495E57'
-                    }) }> ABOUT </NavLink>
+                <li className="link">
+                <a className= "head" href="/"> MENU </a>
+                </li>
+                <li className="link">
+                    <a className= "head" href=""> RESERVATION </a>
+                </li>
+                <li className="link">
+                    <a className= "head" href=""> ORDER ONLINE </a>
+                </li>
+                <li className="link">
+                    <a className= "head" href=""> LOGIN </a>
+                </li>
+                <li className="link">
+                    <a className= "head" href=""> ABOUT </a>
                 </li>
             </ul>
 

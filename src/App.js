@@ -1,14 +1,15 @@
 import './App.css';
-import {Nav, Header, Main, Footer} from './components';
-/* import { useState, useEffect, React } from 'react';
-import {DataContext} from './DataContext.js';
-import { Routes, Route, useLocation } from "react-router-dom"; */
+import Nav from './Nav';
+import Header from './Header';
+import Main from './Main'
+import Footer from './Footer';
+
 
 function App() {
   return (
-    < >
-     <Header />
-     <Nav />
+    <>
+     <Header /><Nav />
+     
      <Main />
      <Footer />
     </>

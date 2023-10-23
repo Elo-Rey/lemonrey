@@ -1,14 +1,17 @@
 import React from "react";
+import './Footer.css'
 /* import { ReactComponent as Brand } from "./images/lemonss.png"; */
-import { NavLink } from 'react-router-dom';
+/* import { NavLink } from 'react-router-dom'; */
 
 const Footer = () => {
     return (
 
         <footer>
-            <nav className="footerbar">
-            <div className="logo">
-                {/* <Brand /> */}
+            <div className="footerbar">
+                <div className="footer-image">
+                    <img src= "/Lemonss.png" width={200} height={50} alt=" little lemon's logo. it comprises of the words little lemon and a lemon" className="round"></img>
+                </div>
+                <div className="footer-elements">
             <div className="doormat">
                 <h4> Doormat Navigation</h4>
             <ul>
@@ -16,7 +19,7 @@ const Footer = () => {
                     <a href ="/">Home</a>
                 </li>
                 <li>
-                    <a href =" /about">Aout</a>
+                    <a href =" /about">About</a>
                 </li>
                 <li>
                     <a href =" /menu">Menu</a>
@@ -35,18 +38,18 @@ const Footer = () => {
             <div className="contact">
                 <h4> Contact </h4>
                 <ul>
-                    <li>
+                    <li className="soc">
                         <a href="/">Address</a>
                     </li>
-                    <li>
+                    <li className="soc">
                         <a href="tel +2349056936410" >Phone Number</a>
                     </li>
-                    <li>
+                    <li className="soc">
                         <a href ="ikwuezumaeloray@gmail.com">Address</a>
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className="socials">
                 <h4> Social Media Links </h4>
                 <ul>
                     <li>
@@ -64,8 +67,7 @@ const Footer = () => {
                 </ul>
             </div>
             </div>
-          </nav>
-
+            </div>
         </footer>
     );
   };
