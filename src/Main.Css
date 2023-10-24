@@ -1,0 +1,143 @@
+.landing-content{
+    width: 100%;
+    background-color: #495E57;
+    position: relative;
+    height: 465px;
+}
+
+.landing-title {
+    color: #F4CE14;
+    font-family: 'Markazi', "serif";
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    left: 20%;
+    top: 62.5px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Markazi', serif;
+    left: 20%;
+    top: 62.5px;
+}
+
+.landing-subtitle{
+    font-family: 'Markazi', serif;
+    font-weight: 500;
+    color: #EDEFEE;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    position: relative;
+    left: 20%;
+    top: 62.5px;
+}
+
+.landing-text{
+    width: 380px;
+    font-family: 'Karla', sans-serif;
+    color: #EDEFEE;
+    font-size: 16px;
+    position: relative;
+    left: 20%;
+    top: 62.5px;
+
+}
+
+.landing-image{
+    position: relative;
+    left: 55%;
+    top: -260px;
+    border-radius: 5%;
+}
+
+.land-round{
+    border-radius: 4%;
+}
+
+.reserve-a-buttton{
+    width: 170px;
+    height: 50px;
+    background-color: #F4CE14;
+    color:#333333;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    font-size: large;
+    border-style: none;
+    border-radius: 15px;
+    position: relative;
+    left: 20%;
+    top: 80px;
+    box-shadow: 2px 2px #333333;
+}
+
+.reserve-a-buttton:hover {
+    cursor: pointer;
+    background-color: #EE9972;
+}
+
+.about-content{
+    width: 100%;
+    position: relative;
+    height: 465px;
+    margin-top: 300px;
+}
+
+.about-title {
+    color: #F4CE14;
+    font-family: 'Markazi', "serif";
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    left: 20%;
+    top: 62.5px;
+    margin-bottom: 0;
+}
+
+.about-subtitle{
+    font-family: 'Markazi', serif;
+    font-weight: 500;
+    color:#495E57;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    position: relative;
+    left: 20%;
+    top: 62.5px;
+}
+
+.about-text{
+    width: 340px;
+    font-family: 'Karla', sans-serif;
+    color:#495E57;
+    font-size: 16px;
+    position: relative;
+    left: 20%;
+    top: 62.5px;
+
+}
+
+.about-images{
+    position: relative;
+    left: 750px;
+    top: -173px;
+}
+
+.about-round1{
+    box-shadow: 4px 4px #333333;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+    left: 70px;
+    z-index: 4;
+
+}
+
+.about-round2{
+    box-shadow: 4px 4px #333333;
+    border-radius: 20px;
+    position: relative;
+    top: -10px;
+
+}

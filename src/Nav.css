@@ -16,6 +16,10 @@ a.nav-elements{
     
 }
 
+a:hover{
+    color: #EE9972;
+}
+
 .nav-links{
     flex: 1;
     position:relative;
