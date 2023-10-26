@@ -34,7 +34,6 @@
 }
 
 .doormat{
-    
     position: relative;
     top: 10px;
     right: 30px;
@@ -69,4 +68,155 @@ a{
 .soc{
     position: relative;
     left: -26px
+}
+
+@media (min-width: 768px) and (max-width: 949px) {
+    .footer-elements{
+        position: relative;
+        left:20px;
+        right:100px ;
+        display:flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+    .doormat{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: -25%
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: -18%
+    }
+    .soc{
+        position: relative;
+        left: 90%;
+    }
+    .contact-line{
+        position: relative;
+        left: 50%
+    }
+    .cos{
+        position: relative;
+        left:30%
+    }
+    ul{
+        position: relative;
+        padding-top: 2%;
+    }
+}
+
+@media (min-width: 479px) and (max-width: 767px) {
+    li{
+        font-size: 24px;
+    }
+    .footer-elements{
+        position: relative;
+        left:20px;
+        right:100px ;
+        display:flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+    .doormat{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 40px;
+        left: -40%;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 40px;
+        left: -52%;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 40px;
+        left: -45%;
+    }
+    .soc{
+        position: relative;
+        left: 65%;
+    }
+    .contact-line{
+        position: relative;
+        left: 50%
+    }
+    .cos{
+        position: relative;
+        left:5%
+    }
+    ul{
+        padding-top: 2%;
+    }
+    .footer-image{
+        position: relative;
+        bottom: 220px;
+        left:30%;
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-elements{
+        position: relative;
+        left:-40px;
+        right:100px ;
+        display:flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+    .doormat{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 50px;
+        left: -40%;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 40px;
+        left: -40%;
+    }
+    .socials{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 40px;
+        left: -40%;
+    }
+    .soc{
+        position: relative;
+        left: 15%;
+    }
+    .cos{
+        position: relative;
+        left: -8%
+    }
+    ul{
+        padding-top: 2%;
+    }
+    .footer-image{
+        position: relative;
+        bottom: 150px;
+        left:30%;
+        display: flex;
+    }
 }

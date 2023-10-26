@@ -33,6 +33,7 @@ const Footer = () => {
                 <li>
                     <a href=" /login">Login</a>
                 </li>
+                
             </ul>
             </div>
             <div className="contact">
@@ -47,21 +48,22 @@ const Footer = () => {
                     <li className="soc">
                         <a href ="ikwuezumaeloray@gmail.com">Address</a>
                     </li>
+                    
                 </ul>
             </div>
             <div className="socials">
                 <h4> Social Media Links </h4>
                 <ul>
-                    <li>
+                    <li className="cos">
                         <a href="https://x.com/mvo_rey">Twitter</a>
                     </li>
-                    <li>
+                    <li className="cos">
                         <a href="https://instagram.com/reynolds_ik" >Instagram</a>
                     </li>
-                    <li>
+                    <li className="cos">
                         <a href ="https://www.linkedin.com/in/elochukwu-ikwuezuma-20b998121">Linked in</a>
                     </li>
-                    <li>
+                    <li className="cos">
                         <a href ="https://github.com/Elo-Rey">2go</a>
                     </li>
                 </ul>

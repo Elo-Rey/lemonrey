@@ -6,3 +6,54 @@
     left: 25%;
     top: 62.5px;
 }
+
+@media (min-width: 950px) and (max-width: 1199px) {
+    .logo{
+        position: relative;
+        left: 50%;
+        right: 50%;
+        top: 20px;
+
+    }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 949px) {
+    .logo{
+        position: relative;
+        left: 40%;
+        right: 50%;
+        top: 40px;
+    }
+
+}
+
+/* extra small devices */
+@media (max-width: 767px) {
+    .logo{
+        position: relative;
+        left: 40%;
+        right: 50%;
+        top: 40px;
+    }
+
+    }
+
+@media (max-width: 500px) {
+    .logo{
+        position: relative;
+        left: 350%;
+        right: 50%;
+        top: 40px;
+    }
+}
+
+@media (max-width: 479px) {
+    .logo{
+        position: relative;
+        left: 30%;
+        right: 50%;
+        top: 40px;
+    }
+
+        }
