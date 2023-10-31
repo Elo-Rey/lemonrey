@@ -713,30 +713,30 @@ p.specials-content{
         height: 800px;
     }
     .about-title {
-        left: 20%;
+        left: 25%;
     }
     .about-subtitle{
         left: 40%;
     }
     .about-text{
-        width: 450px;
+        width: 90vw;
         font-size: 18px;
-        left: 10%;
+        left: 4%;
         top: 20px
     }
     .about-images{
         top: 170px;
         left: 40px;
+
     }
     .about-round1{
-        top:-170px;
-        width:250px;
-        height: 250px;
+        top:-100px;
+        width:350px;
+        height: 350px;
+        left: 10%;
     }
     .about-round2{
-        left:-90px;
-        width:250px;
-        height: 250px;
+        display:none
     }
 
 

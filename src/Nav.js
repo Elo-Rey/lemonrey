@@ -1,7 +1,7 @@
 import React from "react";
 import {MdClose} from 'react-icons/md';
 import {FiMenu} from 'react-icons/fi';
-/* import { Link, NavLink } from 'react-router-dom'; */
+import { Link } from 'react-router-dom';
 import { useState, useRef, useEffect } from "react";
 import './Nav.css'
 
@@ -33,22 +33,22 @@ const Nav = () => {
           <div className="nav-square">
              <ul className="nav-links">
                 <li className="link">
-                    <a className= "head" href="/"> HOME </a>
+                    <Link className= "head" to={"/"}> HOME </Link>
                 </li>
                 <li className="link">
-                <a className= "head" href="/"> MENU </a>
+                <Link className= "head" to= {"/"}> MENU </Link>
                 </li>
                 <li className="link">
-                    <a className= "head" href="/"> RESERVATION </a>
+                    <Link className= "head" to={"/reservation"}> RESERVATION </Link>
                 </li>
                 <li className="link">
-                    <a className= "head" href="/"> ORDER ONLINE </a>
+                    <Link className= "head" to={"/"}> ORDER ONLINE </Link>
                 </li>
                 <li className="link">
-                    <a className= "head" href="/"> LOGIN </a>
+                    <Link className= "head" to= {"/"}> LOGIN </Link>
                 </li>
                 <li className="link">
-                    <a className= "head" href="/"> ABOUT </a>
+                    <Link className= "head" to={"/"}> ABOUT </Link>
                 </li>
             </ul>
             </div>
