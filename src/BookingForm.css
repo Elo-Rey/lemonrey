@@ -1,0 +1,5 @@
+form {
+    display:grid;
+    max-width: 100%;
+    gap: 2%
+}

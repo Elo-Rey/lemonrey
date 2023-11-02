@@ -79,7 +79,7 @@ const Nav = () => {
                 <hr class="nav-small"/>
                 </li>
                 <li className="link-md">
-                    <a className= "head" href="/"> RESERVATION </a>
+                    <a className= "head" href="/reservation"> RESERVATION </a>
                     <hr class="nav-small"/>
                 </li>
                 <li className="link-md">
