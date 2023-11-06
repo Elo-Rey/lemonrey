@@ -2,17 +2,42 @@ import './BookingForm.css';
 import {useState} from 'react';
 
 
-function BookingForm (props){
-    const [fullName, setFullName] = useState("");
+export default function BookingForm ({availableTimes, dispatch, submitForm}){
+
+    const [formData, setFormData] =useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phoneNumber:"",
+        date:"",
+        time: "00:00",
+        guests: "1",
+        occassion: "Birthday"
+    })
+
+
+   /*  const [fullName, setFullName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [date, setDate] = useState("Date");
     const [time, setTime] = useState();
     const [guest, setGuests] = useState("1");
     const [occassion, setOccassion] = useState("Occassion");
-    const [availableTimes, setAvailableTimes] = useState(["Time","17:00", "18:00","19:00", "20:00", "21:00", "22:00" ])
+    const [availableTimes, setAvailableTimes] = useState(["Time","17:00", "18:00","19:00", "20:00", "21:00", "22:00" ]) */
 
-    const clearForm = () =>{
+
+    
+
+
+     const handleFormChange = (event) => {
+        const { name, value }  = event.target
+        setFormData((prevFormData)=> ({
+            ...prevFormData,
+            [name]:value
+        }))
+     }
+
+   /*  const clearForm = () =>{
             setFullName("");
             setEmail("");
             setPhone("");
@@ -20,18 +45,37 @@ function BookingForm (props){
             setTime(" Time");
             setGuests("1");
             setOccassion("Occassion")
+    } */
+    const clearForm =() => {
+        setFormData({
+        firstName: "",
+        lastName: "",
+        email:"",
+        phoneNumber:"",
+        date:"",
+        time: "00:00",
+        guests: "1",
+        occasion: "Birthday"
+        })
+    }
+
+    const handleDateChange = async (event) => {
+        const { name, value} = event.target
+        setFormData((prevFormData) => ({
+            ...prevFormData,
+            [name]: value
+        }))
+        dispatch({ type: 'UPDATE_TIMES', payload: value })
     }
 
     const handleBooking =(e) => {
         e.preventDefault();
         alert("Reservation Booked!");
+        submitForm(formData)
         clearForm()
     }
-
-
-
-
-
+    const currentDate = new Date().toISOString().split("T")[0];
+    const options = availableTimes.map(time => <option key={time}>{time}</option>)
 
     return(
         <div>
@@ -39,16 +83,29 @@ function BookingForm (props){
                 <fieldset>
                     <h2>  Contact Details </h2>
                     <div className='Field'>
-                        <label  htmlFor="fullname">
-                            Full Name:<sup>*</sup>
+                        <label  htmlFor="firstname">
+                            First Name:<sup>*</sup>
                         </label>
                         <input
-                        id='full'
+                        id='first'
                         type='text'
-                        value={fullName}
-                        onChange={(e) => {
-                            setFullName(e.target.value);
-                        }} placeholder='Full Name'/>
+                        name ="firstName"
+                        value={formData.firstName}
+                        onChange={handleFormChange}
+                        placeholder= 'eg John' required/>
+
+                    </div>
+                    <div className='Field'>
+                        <label  htmlFor="lastname">
+                            Last Name:<sup>*</sup>
+                        </label>
+                        <input
+                        id='Last'
+                        type='text'
+                        name ="lastName"
+                        value={formData.lasttName}
+                        onChange={handleFormChange} 
+                        placeholder= 'eg Doe' required/>
 
                     </div>
                     <div className='Field'>
@@ -58,10 +115,11 @@ function BookingForm (props){
                         <input
                         id='email'
                         type="email"
-                        value={email}
-                        onChange={(e) => {
-                            setEmail(e.target.value);
-                        }} placeholder='Email'/>
+                        name ="email"
+                        value={formData.email}
+                        onChange={handleFormChange} 
+                        placeholder= 'eg JohnDoe@email.com' required/>
+
                         </div>
                         <div className='Field'>
                         <label  htmlFor="phone">
@@ -69,11 +127,13 @@ function BookingForm (props){
                         </label>
                         <input
                         id='phone'
-                        type="number"
-                        value={phone}
-                        onChange={(e) => {
-                            setPhone(e.target.value);
-                        }} placeholder='Phone Number'/>
+                        type="text"
+                        name ="phoneNumber"
+                        value={formData.phoneNumber}
+                        onChange={handleFormChange} 
+                        placeholder= '0123-456-2890' 
+                        pattern='[0-9]{4}-[0-9]{3}-[0-9]{4}'/>
+
                         </div>
 
                 </fieldset>
@@ -87,10 +147,12 @@ function BookingForm (props){
                         <input
                         id='res-date'
                         type="date"
-                        value={date}
-                        onChange={(e) => {
-                            setDate(e.target.value);
-                        }}/>
+                        name ="date"
+                        value={formData.date}
+                        onChange={handleDateChange}
+                         required
+                         min= {currentDate}/>
+
                         </div>
                         <div className='Field'>
                         <label  htmlFor="res-time">
@@ -98,20 +160,12 @@ function BookingForm (props){
                         </label>
                         <select
                         id='res-time'
-                        value={time}
-                        placeholder='time'
-                        onChange={(e) => {
-                            setTime(e.target.value);
-                        }}>
-                            {availableTimes.map((e, i) =><option key ={i}> {e} </option>)}
-                            {/* 
-                            <option value="res-time"> Time </option>
-                            <option value="17:00"> 17:00 </option>
-                            <option value="18:00"> 18:00 </option>
-                            <option value="19:00"> 19:00 </option>
-                            <option value="20:00"> 20:00 </option>
-                            <option value="21:00"> 21:00 </option>
-                            <option value="22:00"> 22:00 </option> */}
+                        name ="time"
+                        value={formData.time}
+                        onChange={handleFormChange}
+                         min={currentDate}
+                         required>
+                            {options}
                         </select>
 
                     </div>
@@ -122,33 +176,37 @@ function BookingForm (props){
                         <input
                         type="number"
                         id='guests'
-                        value={guest}
-                        onChange={(e) => {
-                            setGuests(e.target.value);
-                        }} placeholder='1' min={1} max={10}/>
+                        name ="guests"
+                        value={formData.guests}
+                        onChange={handleFormChange}
+                        placeholder= '1' 
+                        min="1"
+                        max="10"
+                        required/>
+                        
                         </div>
                         <div className='Field'>
-                        <label  htmlFor="ocassion">
+                        <label  htmlFor="occassion">
                             Ocassion:<sup>*</sup>
                         </label>
                         <select
-                        id='occassion'
-                        value={occassion}
-                        onChange={(e) => {
-                            setOccassion(e.target.value);
-                        }}>
-                            <option value=" occassion"> Ocassion </option>
-                            <option value=" birthday"> Birthday </option>
-                            <option value=" anniversary"> Anniversary </option>
-                            <option value=" graduation"> Graduation </option>
-                            <option value=" ptomotion"> Promotion </option>
-                            <option value=" Reunion"> Reunion </option>
+                        id='occasion'
+                        name ="occasion"
+                        value={formData.occasion}
+                        onChange={handleFormChange}
+                         required>
+                            <option > Occasion </option>
+                            <option > Birthday </option>
+                            <option > Anniversary </option>
+                            <option > Graduation </option>
+                            <option > Promotion </option>
+                            <option > Reunion </option>
                         </select>
 
                     </div>
                     
                 </fieldset>
-                <button className='res-button' type='submit'>
+                <button className='res-button' type='submit' value="Reserve">
                         Submit
                     </button>
             </form>
@@ -156,4 +214,3 @@ function BookingForm (props){
     )
 }
 
-export default BookingForm;
