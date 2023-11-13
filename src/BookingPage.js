@@ -22,8 +22,12 @@ function BookingPage  () {
         const isSubmitted =submitAPI(formData);
 
         if (isSubmitted){
-            navigate("/");
+            navigate("/confirmed");
         }
+    }
+    function back(e){
+            navigate("/")
+
     }
 
     function reducer(state, action){
@@ -43,6 +47,7 @@ function BookingPage  () {
     const [ availableTimes, dispatch] =useReducer(reducer, initializeTimes(date))
     return(
     <>
+    <button className="back" onClick={back}> <img src= "/left-arrow.svg" width={30} height={30} alt=" an arrow indicating a button to return to the previous page " className="arrow"></img> </button>
     <BookingForm availableTimes={availableTimes} dispatch={ dispatch} submitForm={submitForm}/>
     </>
     )

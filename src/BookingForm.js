@@ -16,18 +16,6 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
     })
 
 
-   /*  const [fullName, setFullName] = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
-    const [date, setDate] = useState("Date");
-    const [time, setTime] = useState();
-    const [guest, setGuests] = useState("1");
-    const [occassion, setOccassion] = useState("Occassion");
-    const [availableTimes, setAvailableTimes] = useState(["Time","17:00", "18:00","19:00", "20:00", "21:00", "22:00" ]) */
-
-
-    
-
 
      const handleFormChange = (event) => {
         const { name, value }  = event.target
@@ -37,15 +25,7 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
         }))
      }
 
-   /*  const clearForm = () =>{
-            setFullName("");
-            setEmail("");
-            setPhone("");
-            setDate("Date");
-            setTime(" Time");
-            setGuests("1");
-            setOccassion("Occassion")
-    } */
+   
     const clearForm =() => {
         setFormData({
         firstName: "",
@@ -132,7 +112,7 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         value={formData.phoneNumber}
                         onChange={handleFormChange} 
                         placeholder= '0123-456-2890' 
-                        pattern='[0-9]{4}-[0-9]{3}-[0-9]{4}'/>
+                        /* pattern='[0-9]{4}-[0-9]{3}-[0-9]{4}' *//>
 
                         </div>
 
