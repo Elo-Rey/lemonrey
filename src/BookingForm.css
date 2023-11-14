@@ -1,5 +1,291 @@
 form {
     display:grid;
     max-width: 100%;
-    gap: 2%
+    height: 150%;
+    gap: 2%;
+    left:auto;
+    right: inherit;
+    background-image: url('./images/restaurant.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
+
+.top{
+    font-family: 'Markazi', "serif";
+    font-size: 48px;
+    font-weight: 600;
+    color: #495E57;
+    position: relative;
+    left: 30%;
+    top: 30px;
+}
+
+.top2{
+    font-family: 'Markazi', "serif";
+    font-size: 48px;
+    font-weight: 600;
+    color: #495E57;
+    position: relative;
+    left: 20%;
+    top: -60px;
+}
+
+.top3{
+    position: relative;
+    top:-90px;
+}
+
+sup{
+    color: red;
+    font-size: 1.2rem;
+}
+
+.res-set {
+    background-color: #F4CE14;
+    width: 60%;
+    position: relative;
+    left: 18.5%;
+    border:none;
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+}
+.res-set2{
+    background-color: #F4CE14;
+    width: 60%;
+    position: relative;
+    left: 18.5%;
+    top:-5%;
+    border:none;
+    border-radius: 15px;
+}
+
+#first{
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    border-color: transparent;
+    width: 40%;
+}
+
+.Field{
+    position: relative;
+    left: 50px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+    
+}
+
+.Field2{
+    position: relative;
+    left: 460px;
+    top: -64px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+#last{
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    border-color: transparent;
+    width: 40%;
+}
+
+#email{
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    border-color: transparent;
+    width: 85%;
+}
+
+.Field3{
+    position: relative;
+    left: 50px;
+    top: -60px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+#phone{
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    border-color: transparent;
+    width: 85%;
+}
+
+.Field4{
+    position: relative;
+    left: 50px;
+    top: -40px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+.Field5{
+    position: relative;
+    left: 50px;
+    top: -90px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+    
+}
+
+#res-date{
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #495E57;
+    font-family: 'Karla', serif;
+    font-weight: 800;
+    color: #495E57;
+    display: flex;
+    border-color: transparent;
+    width: 40%;
+    cursor: pointer;
+}
+
+.Field6{
+    display: flex;
+    position: relative;
+    left: 500px;
+    top: -148px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+#res-time{
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #495E57;
+    font-family: 'Karla', serif;
+    font-weight: 800;
+    color: #495E57;
+    display: flex;
+    border-color: transparent;
+    width: 38%;
+    position: relative;
+    top: 27px;
+    left:-109px;
+    cursor: pointer;
+}
+
+.Field7{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: -115px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+#guests{
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    border-color: transparent;
+    width: 20%;
+    position: relative;
+    top: 32px;
+    left:-150px;
+    font-family: 'Karla', serif;
+    font-weight: 800;
+    color: #495E57;
+}
+
+.Field8{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: -85px;
+    font-family: 'Karla', serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+#occasion{
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #495E57;
+    font-family: 'Karla', serif;
+    font-weight: 800;
+    color: #495E57;
+    display: flex;
+    border-color: transparent;
+    width: 42%;
+    position: relative;
+    top: 32px;
+    left:-85px;
+    cursor: pointer;
+}
+
+.Field-area{
+    
+    position: relative;
+    top: -45px;
+    left: 50px;
+    font-family: 'Karla', serif;
+    font-size: medium;
+    font-weight: 700;
+    color: #495E57;
+    
+}
+
+#requests{
+    padding-bottom: 95px;
+    border-radius: 5px;
+    display: flex;
+    border-color: transparent;
+    width: 88%;
+    position: relative;
+    top: 8px;
+    left: -3px;
+    font-family: 'Karla', serif;
+    font-weight: 800;
+    color: #495E57;
+}
+
+.res-button{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #495E57;
+    font-family: 'Karla', serif;
+    font-weight: 800;
+    background-color: #495E57;
+    color: #EDEFEE;
+    justify-content: center;
+    display: flex;
+    border-color: transparent;
+    width: 20%;
+    position: relative;
+    cursor: pointer;
+    left:40%;
+}
+.res-button:hover{
+    background-color: #EE9972;
+    box-shadow: none;
+}
+
+/* #res-date:hover{
+    background-color: #EE9972;
+    box-shadow: none;
+}
+
+#res-time:hover{
+    background-color: #EE9972;
+    box-shadow: none;
+}
+
+#occasion:hover{
+    background-color: #EE9972;
+    box-shadow: none;
+} */

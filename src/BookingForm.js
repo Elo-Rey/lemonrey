@@ -1,5 +1,6 @@
 import './BookingForm.css';
 import {useState} from 'react';
+import image from './images/restaurant.jpg';
 
 
 export default function BookingForm ({availableTimes, dispatch, submitForm}){
@@ -12,7 +13,8 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
         date:"",
         time: "00:00",
         guests: "1",
-        occassion: "Birthday"
+        occassion: "Birthday",
+        requests:""
     })
 
 
@@ -35,7 +37,8 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
         date:"",
         time: "00:00",
         guests: "1",
-        occasion: "Birthday"
+        occasion: "Birthday",
+        requests:""
         })
     }
 
@@ -58,10 +61,16 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
     const options = availableTimes.map(time => <option key={time}>{time}</option>)
 
     return(
-        <div>
-            <form onSubmit={handleBooking}>
-                <fieldset>
-                    <h2>  Contact Details </h2>
+        
+        <div  >
+            {/* < >style={{ backgroundImage: `url(${image})`, 
+        backgroundRepeat: "no-repeat", 
+        backgroundSize:"contain", height:1500, width:1500 
+        }} </> */}
+            <form className="res-form" onSubmit={handleBooking}>
+                <fieldset className='res-set'>
+                    <h2 className='top'>  Contact Details </h2>
+                    <hr/>
                     <div className='Field'>
                         <label  htmlFor="firstname">
                             First Name:<sup>*</sup>
@@ -75,12 +84,12 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         placeholder= 'eg John' required/>
 
                     </div>
-                    <div className='Field'>
+                    <div className='Field2'>
                         <label  htmlFor="lastname">
                             Last Name:<sup>*</sup>
                         </label>
                         <input
-                        id='Last'
+                        id='last'
                         type='text'
                         name ="lastName"
                         value={formData.lasttName}
@@ -88,7 +97,7 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         placeholder= 'eg Doe' required/>
 
                     </div>
-                    <div className='Field'>
+                    <div className='Field3'>
                         <label  htmlFor="email">
                             Email:<sup>*</sup>
                         </label>
@@ -101,7 +110,7 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         placeholder= 'eg JohnDoe@email.com' required/>
 
                         </div>
-                        <div className='Field'>
+                        <div className='Field4'>
                         <label  htmlFor="phone">
                             Phone Number:
                         </label>
@@ -118,9 +127,10 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
 
                 </fieldset>
 
-                <fieldset>
-                <h2> Reservation Information  </h2>
-                    <div className='Field'>
+                <fieldset className='res-set2'>
+                <h2 className='top2'> Reservation Information  </h2>
+                <hr className='top3'/>
+                    <div className='Field5'>
                         <label  htmlFor="res-date">
                             Choose date:<sup>*</sup>
                         </label>
@@ -134,7 +144,7 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                          min= {currentDate}/>
 
                         </div>
-                        <div className='Field'>
+                        <div className='Field6'>
                         <label  htmlFor="res-time">
                             Choose time:<sup>*</sup>
                         </label>
@@ -149,7 +159,7 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         </select>
 
                     </div>
-                    <div className='Field'>
+                    <div className='Field7'>
                         <label  htmlFor="guests">
                             Number of guests:<sup>*</sup>
                         </label>
@@ -165,8 +175,8 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         required/>
                         
                         </div>
-                        <div className='Field'>
-                        <label  htmlFor="occassion">
+                        <div className='Field8'>
+                        <label  htmlFor="occasion">
                             Ocassion:<sup>*</sup>
                         </label>
                         <select
@@ -184,12 +194,27 @@ export default function BookingForm ({availableTimes, dispatch, submitForm}){
                         </select>
 
                     </div>
-                    
-                </fieldset>
-                <button className='res-button' type='submit' value="Reserve">
+                    <div className='Field-area'>
+                        <label  htmlFor="special-requests">
+                            Special Requests:
+                        </label>
+                        <input
+                        id='requests'
+                        type="textarea"
+                        rows={5}
+                        columns ={200}
+                        name ="requests"
+                        value={formData.requests}
+                        onChange={handleFormChange} 
+                        placeholder= 'what else should we know?' />
+                        </div>
+                        <button className='res-button' type='submit' value="Reserve">
                         Submit
                     </button>
+                </fieldset>
+                
             </form>
+            
         </div>
     )
 }
