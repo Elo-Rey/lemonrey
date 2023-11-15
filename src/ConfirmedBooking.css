@@ -1,0 +1,80 @@
+.confirmed{
+    display: grid;
+    background-image: url('./images/restauranfood.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.backdrop{
+    background-color: #EDEFEE;
+    width: 60%;
+    position: relative;
+    border-radius: 50px;
+    left: 18%;
+}
+
+.reserve{
+    position: relative;
+    left: 34%;
+}
+
+.confirmed-heading{
+    position: relative;
+    top: -30px;
+    left: 35%;
+    font-family: 'Markazi', "serif";
+    font-size: 48px;
+    font-weight: 600;
+    color: #495E57;
+}
+
+.confirmed-paragraph{
+    /* display: flex;
+    justify-content: center; */
+    position: relative;
+    top: -30px;
+    left: 28.5%;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #495E57;
+}
+.confirmed-paragraph1{
+    position: relative;
+    top: -40px;
+    left: 16%;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #495E57;
+}
+.confirmed-paragraph2{
+    position: relative;
+    top: -50px;
+    left: 25.5%;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #495E57;
+}
+.confirmed-paragraph3{
+    position: relative;
+    top: -60px;
+    left: 8%;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #495E57;
+}
+
+.confirmed-paragraph4{
+    position: relative;
+    top: -70px;
+    left: 30%;
+    font-size: 24px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #495E57;
+}

@@ -289,3 +289,454 @@ sup{
     background-color: #EE9972;
     box-shadow: none;
 } */
+
+
+
+@media (min-width: 800px) and (max-width: 1300.99px) {
+    form {
+        background-size: 200%;
+    }
+    sup{
+        font-size: 0.8rem;
+    }
+    .top{
+        font-size: 40px;
+        left: 28%;
+        top: 0px;
+    }
+    .top2{
+        font-size: 40px;
+        left: 16%;
+        top: -60px;
+    }
+    
+    .top3{
+        top:-80px;
+    }
+
+    .res-set {
+        width: 80%;
+        font-size: 20px;
+        left: 8%;
+        border-radius: 5px 5px 5px 0px;
+        top:1%;
+    }
+    .res-set2{
+        width: 80%;
+        font-size: 20px;
+        left: 8%;
+        top:-4%;
+        border-radius: 0px 0px 5px 5px;
+        padding-bottom: 40px;
+    }
+
+    #first{
+        padding: 8px;
+        width: 45%;
+    }
+    
+    .Field{
+        left: 3px;
+    }
+
+    .Field2{
+        left: 52%;
+        top: -59px;
+    }
+
+    #last{
+        padding: 8px;
+        width: 45%;
+    }
+
+    #email{
+        padding: 8px;
+        width: 96.5%;
+    }
+    
+    .Field3{
+        left: 3px;
+        top: -45px;
+    }
+    
+    #phone{
+        padding: 8px;
+        width: 96.5%;
+    }
+    
+    .Field4{
+        left: 3px;
+        top: -40px;
+    }
+    #res-date{
+        padding: 8px;
+        width: 45%;
+        cursor: pointer;
+    }
+    .Field5{
+        left: 3px;
+        top: -85px;
+    }
+    
+    .Field6{
+        left: 52%;
+        top: -148px;
+    }
+    
+    #res-time{
+        padding: 8px;
+        width: 47%;
+        top: 26.5px;
+        left: -127px;
+    }
+
+    .Field7{
+        left: 3px;
+        top: -90px;
+        font-size: 20px;
+    }
+    
+    #guests{
+        padding: 8px;
+        width: 30%;
+        top: 28px;
+        left: -177px;
+    }
+    
+    .Field8{
+        left: 3px;
+        top: -38px;
+    }
+    
+    #occasion{
+        padding: 8px;
+        width: 40%;
+        top: 26px;
+        left:-98px;
+    }
+    
+    .Field-area{
+        font-size: 20px;
+        top: 10px;
+        left: 4px;
+    }
+    
+    #requests{
+        padding-top: 15px;
+        padding-bottom: 65px;
+        width: 100%;
+        top: 2px;
+        left: -8px;
+    }
+    
+    .res-button{
+        padding: 10px;
+        width: 50%;
+        top:30px;
+        left:24%;
+    }
+
+
+}
+
+@media (min-width: 500px) and (max-width: 799.99px) {
+    form {
+        background-size: 200%;
+    }
+    sup{
+        font-size: 0.8rem;
+    }
+    .top{
+        font-size: 24px;
+        position: relative;
+        left: 35%;
+        top: 0px;
+    }
+    .top2{
+        font-size: 24px;
+        position: relative;
+        left: 27%;
+        top: -20px;
+    }
+    
+    .top3{
+        top:-35px;
+    }
+
+    .res-set {
+        width: 80%;
+        font-size: 20px;
+        left: 8%;
+        border-radius: 5px 5px 5px 0px;
+        top:1%;
+    }
+    .res-set2{
+        width: 80%;
+        font-size: 20px;
+        left: 8%;
+        top:-4%;
+        border-radius: 0px 0px 5px 5px;
+        padding-bottom: 40px;
+    }
+    
+    #first{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    .Field{
+        left: 3px;
+    }
+    
+    .Field2{
+        left: 3px;
+        top: 0px;
+    }
+    
+    #last{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    #email{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    .Field3{
+        left: 3px;
+        top: 0px;
+    }
+    
+    #phone{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    .Field4{
+        left: 3px;
+        top: 0px;
+    }
+    
+    .Field5{
+        left: 3px;
+        top: -45px;
+        
+    }
+    
+    #res-date{
+        padding: 3px;
+        width: 50%;
+        cursor: pointer;
+    }
+    
+    .Field6{
+        left: 3px;
+        top: -45px;
+    }
+    
+    #res-time{
+        padding: 3px;
+        width: 38%;
+        top: 23px;
+        left: -127px;
+    }
+    
+    .Field7{
+        left: 3px;
+        top: -20px;
+        font-size: 20px;
+    }
+    
+    #guests{
+        padding: 0px;
+        width: 30%;
+        top: 22px;
+        left: -177px;
+    }
+    
+    .Field8{
+        left: 3px;
+        top: -3px;
+    }
+    
+    #occasion{
+        padding: 3px;
+        width: 50%;
+        top: 22px;
+        left:-98px;
+    }
+    
+    .Field-area{
+        font-size: 20px;
+        top: 20px;
+        left: 4px;
+    }
+    
+    #requests{
+        padding-bottom: 65px;
+        width: 97%;
+        top: 2px;
+        left: -3px;
+    }
+    
+    .res-button{
+        padding: 10px;
+        width: 80%;
+        top:30px;
+        left:9%;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 499.99px) {
+
+    form {
+        background-size: 300%;
+    }
+    sup{
+        font-size: 0.8rem;
+    }
+    .top{
+        font-size: 16px;
+        position: relative;
+        left: 25%;
+        top: 5px;
+    }
+    .top2{
+        font-size: 16px;
+        position: relative;
+        left: 15%;
+        top: -20px;
+    }
+    
+    .top3{
+        top:-35px;
+    }
+
+    .res-set {
+        width: 80%;
+        font-size: 14px;
+        left: 5%;
+        border-radius: 5px 5px 5px 0px;
+        top:1%;
+    }
+    .res-set2{
+        width: 80%;
+        font-size: 14px;
+        left: 5%;
+        top:-4%;
+        border-radius: 0px 0px 5px 5px;
+        padding-bottom: 40px;
+    }
+    
+    #first{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    .Field{
+        left: 3px;
+    }
+    
+    .Field2{
+        left: 3px;
+        top: 0px;
+    }
+    
+    #last{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    #email{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    .Field3{
+        left: 3px;
+        top: 0px;
+    }
+    
+    #phone{
+        padding: 4px;
+        width: 90%;
+    }
+    
+    .Field4{
+        left: 3px;
+        top: 0px;
+    }
+    
+    .Field5{
+        left: 3px;
+        top: -45px;
+        
+    }
+    
+    #res-date{
+        padding: 3px;
+        width: 50%;
+        cursor: pointer;
+    }
+    
+    .Field6{
+        left: 3px;
+        top: -45px;
+    }
+    
+    #res-time{
+        padding: 3px;
+        width: 38%;
+        top: 27px;
+        left: -90px;
+    }
+    
+    .Field7{
+        left: 3px;
+        top: -20px;
+        font-size: 13px;
+    }
+    
+    #guests{
+        padding: 0px;
+        width: 30%;
+        top: 20px;
+        left: -117px;
+    }
+    
+    .Field8{
+        left: 3px;
+        top: -5px;
+    }
+    
+    #occasion{
+        padding: 3px;
+        width: 50%;
+        top: 22px;
+        left:-70px;
+    }
+    
+    .Field-area{
+        font-size: 12px;
+        top: 20px;
+        left: 4px;
+    }
+    
+    #requests{
+        padding-bottom: 65px;
+        width: 97%;
+        top: 2px;
+        left: -3px;
+    }
+    
+    .res-button{
+        padding: 10px;
+        width: 80%;
+        top:30px;
+        left:9%;
+    }
+
+}
