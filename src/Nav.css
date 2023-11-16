@@ -208,6 +208,7 @@ a:hover{
     .nav-md-menu{
         display: block;
         position: relative;
+
     }
     .toggle{
         cursor: pointer;
@@ -327,8 +328,8 @@ a:hover{
         background: transparent;
         border: none;
         position: relative;
-        left: -5px;
-        top: 55px;
+        left: -30px;
+        top: -10px;
 
     }
 
