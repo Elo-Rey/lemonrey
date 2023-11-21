@@ -300,7 +300,7 @@ p.specials-content{
 }
 
 .kosie{
-    background-image: url("kosie.jpg");
+    background-image: url("./images/kosie.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -308,7 +308,7 @@ p.specials-content{
     width:200px;
 }
 .ayo{
-    background-image: url("ayo.jpg");
+    background-image: url("./images/ayo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,7 +318,7 @@ p.specials-content{
     left: 2%;
 }
 .dez{
-    background-image: url("Daz.jpg");
+    background-image: url("./images/Daz.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,7 +328,7 @@ p.specials-content{
     left: 4%;
 }
 .dan{
-    background-image: url("Dan.jpg");
+    background-image: url("./images/Dan.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

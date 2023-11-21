@@ -36,7 +36,7 @@ const Nav = () => {
                     <Link className= "head" to={"/"}> HOME </Link>
                 </li>
                 <li className="link">
-                <Link className= "head" to= {"/"}> MENU </Link>
+                <Link className= "head" to= {"/menu"}> MENU </Link>
                 </li>
                 <li className="link">
                     <Link className= "head" to={"/reservation"}> RESERVATION </Link>

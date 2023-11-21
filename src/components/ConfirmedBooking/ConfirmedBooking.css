@@ -1,6 +1,6 @@
 .confirmed{
     display: grid;
-    background-image: url('./images/restauranfood.jpg');
+    background-image: url('../../images/restauranfood.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-x: center;

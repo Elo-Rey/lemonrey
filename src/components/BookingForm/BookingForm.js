@@ -1,6 +1,6 @@
 import './BookingForm.css';
 import {useState} from 'react';
-import image from './images/restaurant.jpg';
+
 
 
 export default function BookingForm ({availableTimes, dispatch, submitForm}){

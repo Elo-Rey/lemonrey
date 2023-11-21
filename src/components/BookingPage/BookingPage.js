@@ -1,9 +1,8 @@
 import './BookingPage.css';
-import BookingForm from './BookingForm';
+import BookingForm from '../BookingForm/BookingForm';
 import { useState, useReducer } from "react";
-import { fetchAPI, submitAPI } from './api';
+import { fetchAPI, submitAPI } from '../../api';
 import { useNavigate } from 'react-router-dom';
-import image from './images/restaurant.jpg';
 
 function BookingPage  () {
 

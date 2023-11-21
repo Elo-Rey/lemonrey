@@ -5,7 +5,7 @@ form {
     gap: 2%;
     left:auto;
     right: inherit;
-    background-image: url('./images/restaurant.jpg');
+    background-image: url('../../images/restaurant.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     
