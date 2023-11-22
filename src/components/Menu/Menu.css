@@ -1,0 +1,582 @@
+.menu-container{
+    display: grid;
+    max-width: 100%;
+    left: 10%;
+    max-height: 100%;
+    padding-bottom: 1000px;
+}
+
+.menu-nav{
+    position: relative;
+    top: 28px;
+    left: 8%;
+}
+
+
+
+#breakfast-button{
+    background-color: #F4CE14;
+    color: #495E57;
+    border-radius: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    padding: 12px;
+    position: relative;
+    left: 8%;
+    cursor: pointer;
+}
+
+#lunch-button{
+    background-color: #F4CE14;
+    color: #495E57;
+    border-radius: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    padding: 12px 28px 12px 28px;
+    position: relative;
+    left: 16%;
+    cursor: pointer;
+}
+
+#dinner-button{
+    background-color: #F4CE14;
+    color: #495E57;
+    border-radius: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    padding: 12px 28px 12px 28px;
+    position: relative;
+    left: 24%;
+    cursor: pointer;
+}
+
+#beverages-button{
+    background-color: #F4CE14;
+    color: #495E57;
+    border-radius: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    padding: 12px;
+    position: relative;
+    left: 32%;
+    cursor: pointer;
+}
+
+#desserts-button{
+    background-color: #F4CE14;
+    color: #495E57;
+    border-radius: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    padding: 12px 28px 12px 28px;
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+}
+
+#breakfast-button:hover{
+    background-color: #495E57;
+    color:#F4CE14;
+}
+
+#lunch-button:hover{
+    background-color: #495E57;
+    color:#F4CE14;
+}
+
+#dinner-button:hover{
+    background-color: #495E57;
+    color:#F4CE14;
+}
+
+#beverages-button:hover{
+    background-color: #495E57;
+    color:#F4CE14;
+}
+
+#desserts-button:hover{
+    background-color: #495E57;
+    color:#F4CE14;
+}
+
+.scroll-top{
+    position:fixed;
+    right: 1%;
+    bottom: 8%;
+    color:#F4CE14;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.scroll-top-1{
+    position:fixed;
+    right: 2%;
+    bottom: 10%;
+    color:#F4CE14;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.scroll-bottom{
+    position:fixed;
+    right: 2.75%;
+    top: 8%;
+    color:#F4CE14;
+    cursor: pointer;
+}
+
+.scroll-bottom-1{
+    position:fixed;
+    right: 4%;
+    top: 10%;
+    color:#F4CE14;
+    cursor: pointer;
+}
+
+.breakfast-title{
+    position: relative;
+    left: 4%;
+    font-size: 36px;
+    font-family: 'Markazi', "serif";
+}
+
+.breakfast-subtitle{
+    position: relative;
+    top:-7%;
+    left: 6%;
+    font-size: 24px;
+    font-family: 'Markazi', "serif";
+}
+
+.breakfast-jumbotron{
+    position: relative;
+    top: -7%;
+    left: 4%;
+    width: 92%;
+    height: 30%;
+    background-image: url("../../../public/lemon-breakfast.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px ;
+}
+
+.breakfast-tiles{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    top: -4%
+}
+
+.breakfast-tile-1{
+    max-width: 350px;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.breakfast-food{
+    position: relative;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.breakfast-price{
+    position: relative;
+    right: -82%;
+    top: -40px;
+    color:#EE9972;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.breakfast-spec{
+    position: relative;
+    top:-4%;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.breakfast-tile-2{
+    max-width: 350px;
+    position: relative;
+    left: 11.5%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.breakfast-tile-3{
+    max-width: 350px;
+    position: relative;
+    left: 23%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+/* Lunch */
+
+.lunch-menu{
+    position: relative;
+    top: 20%
+}
+
+.lunch-title{
+    position: relative;
+    left: 4%;
+    font-size: 36px;
+    font-family: 'Markazi', "serif";
+}
+
+.lunch-subtitle{
+    position: relative;
+    top:-8%;
+    left: 6%;
+    font-size: 24px;
+    font-family: 'Markazi', "serif";
+}
+
+.lunch-jumbotron{
+    position: relative;
+    top: -9%;
+    left: 4%;
+    width: 92%;
+    height: 30%;
+    background-image: url("../../../public/lemon-lunch.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px ;
+}
+
+.lunch-tiles{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    top:-6%;
+}
+
+.lunch-tile-1{
+    max-width: 350px;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.lunch-food{
+    position: relative;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.lunch-price{
+    position: relative;
+    right: -82%;
+    top: -40px;
+    color:#EE9972;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.lunch-spec{
+    position: relative;
+    top:-4%;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.lunch-tile-2{
+    max-width: 350px;
+    position: relative;
+    left: 11.5%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.lunch-tile-3{
+    max-width: 350px;
+    position: relative;
+    left: 23%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+/* Dinner */
+
+.dinner-menu{
+    position: relative;
+    top: 40%
+}
+
+.dinner-title{
+    position: relative;
+    left: 4%;
+    font-size: 36px;
+    font-family: 'Markazi', "serif";
+}
+
+.dinner-subtitle{
+    position: relative;
+    top:-8%;
+    left: 6%;
+    font-size: 24px;
+    font-family: 'Markazi', "serif";
+}
+
+.dinner-jumbotron{
+    position: relative;
+    top: -9%;
+    left: 4%;
+    width: 92%;
+    height: 30%;
+    background-image: url("../../../public/lemon-dinner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px ;
+}
+
+.dinner-tiles{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    top:-6%;
+}
+
+.dinner-tile-1{
+    max-width: 350px;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.dinner-food{
+    position: relative;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.dinner-price{
+    position: relative;
+    right: -82%;
+    top: -40px;
+    color:#EE9972;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.dinner-spec{
+    position: relative;
+    top:-4%;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.dinner-tile-2{
+    max-width: 350px;
+    position: relative;
+    left: 11.5%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.dinner-tile-3{
+    max-width: 350px;
+    position: relative;
+    left: 23%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+/* Drinks */
+
+.drinks-menu{
+    position: relative;
+    top: 60%
+}
+
+.drinks-title{
+    position: relative;
+    left: 4%;
+    font-size: 36px;
+    font-family: 'Markazi', "serif";
+}
+
+.drinks-subtitle{
+    position: relative;
+    top:-8%;
+    left: 6%;
+    font-size: 24px;
+    font-family: 'Markazi', "serif";
+}
+
+.drinks-jumbotron{
+    position: relative;
+    top: -10%;
+    left: 4%;
+    width: 92%;
+    height: 30%;
+    background-image: url("../../../public/lemon-drinks.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px ;
+}
+
+.drinks-tiles{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    top:-7%;
+}
+
+.drinks-tile-1{
+    max-width: 350px;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.drinks-food{
+    position: relative;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.drinks-price{
+    position: relative;
+    right: -82%;
+    top: -40px;
+    color:#EE9972;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.drinks-spec{
+    position: relative;
+    top:-4%;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.drinks-tile-2{
+    max-width: 350px;
+    position: relative;
+    left: 11.5%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.drinks-tile-3{
+    max-width: 350px;
+    position: relative;
+    left: 23%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+/* Desserts */
+
+.desserts-menu{
+    position: relative;
+    top: 75%
+}
+
+.desserts-title{
+    position: relative;
+    left: 4%;
+    font-size: 36px;
+    font-family: 'Markazi', "serif";
+}
+
+.desserts-subtitle{
+    position: relative;
+    top:-8%;
+    left: 6%;
+    font-size: 24px;
+    font-family: 'Markazi', "serif";
+}
+
+.desserts-jumbotron{
+    position: relative;
+    top: -8%;
+    left: 4%;
+    width: 92%;
+    height: 30%;
+    background-image: url("../../../public/lemon-desserts.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px ;
+}
+
+.desserts-tiles{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 4%;
+    top:-4%;
+}
+
+.desserts-tile-1{
+    max-width: 350px;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.desserts-food{
+    position: relative;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.desserts-price{
+    position: relative;
+    right: -82%;
+    top: -40px;
+    color:#EE9972;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.desserts-spec{
+    position: relative;
+    top:-4%;
+    left: 2%;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+.desserts-tile-2{
+    max-width: 350px;
+    position: relative;
+    left: 11.5%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
+
+.desserts-tile-3{
+    max-width: 350px;
+    position: relative;
+    left: 23%;
+    background-color: #EDEFEE;
+    border-radius: 15px 15px;
+}
