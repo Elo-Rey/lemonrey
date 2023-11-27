@@ -580,3 +580,1129 @@
     background-color: #EDEFEE;
     border-radius: 15px 15px;
 }
+
+
+
+@media (min-width: 1200px) and (max-width: 1340.99px) {
+    .menu-nav{
+        left: 4%;
+    }
+    
+    .breakfast-tile-2{
+        left: 2%;
+    }
+    
+    .breakfast-tile-3{
+        left: 4%;
+    }
+
+    .lunch-tile-2{
+        left: 2%;
+    }
+    
+    .lunch-tile-3{
+        left: 4%;
+    }
+
+    .dinner-tile-2{
+        left: 2%;
+    }
+    
+    .dinner-tile-3{
+        left: 4%;
+    }
+
+    .drinks-tile-2{
+        left: 2%;
+    }
+    
+    .drinks-tile-3{
+        left: 4%;
+    }
+
+    .desserts-tile-2{
+        left: 2%;
+    }
+    
+    .desserts-tile-3{
+        left: 4%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1199.99px) {
+
+    .menu-container{
+        padding-bottom: 2800px;
+    }
+    
+
+    #breakfast-button{
+        left: 4%;
+    }
+
+    #lunch-button{
+        left: 8%;
+    }
+
+    #dinner-button{
+        left: 12%;
+    }
+
+    #beverages-button{
+        left: 16%;
+    }
+
+    #desserts-button{
+        left: 20%;
+    }
+
+
+    .breakfast-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 6%;
+    }
+    
+    .breakfast-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 80%;
+    }
+
+    .breakfast-tiles{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .breakfast-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .breakfast-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .breakfast-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+    
+    /* lunch */
+
+    .lunch-menu{
+        position: relative;
+        top: 28%
+    }
+    .lunch-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 6%;
+    }
+    
+    .lunch-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 80%;
+    }
+
+    .lunch-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .lunch-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .lunch-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .lunch-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+
+    /* dinner */
+
+    .dinner-menu{
+        position: relative;
+        top: 56%
+    }
+    .dinner-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 6%;
+    }
+    
+    .dinner-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 80%;
+    }
+
+    .dinner-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .dinner-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .dinner-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .dinner-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+    /* drinks */
+
+    .drinks-menu{
+        position: relative;
+        top: 92%
+    }
+
+    .drinks-title{
+        position: relative;
+        top:-8%;
+        left: 4%;
+    }
+
+    .drinks-subtitle{
+        position: relative;
+        top:-11%;
+        left: 6%;
+    }
+    
+    .lunch-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 80%;
+    }
+
+    .drinks-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .drinks-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .drinks-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .drinks-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+
+    /* desserts */
+
+       .desserts-menu{
+        position: relative;
+        top: 124%
+    }
+
+    .desserts-title{
+        position: relative;
+        top:-1%;
+        left: 4%;
+    }
+
+    .desserts-subtitle{
+        position: relative;
+        top:-4%;
+        left: 6%;
+    }
+    
+    .desserts-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 80%;
+    }
+
+    .desserts-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .desserts-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .desserts-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .desserts-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899.99px) {
+
+    .menu-container{
+        padding-bottom: 2800px;
+    }
+    
+    .menu-nav{
+        position: relative;
+        top: 52px;
+        left: 0%;
+    }
+
+    #breakfast-button{
+        left: 4%;
+    }
+
+    #lunch-button{
+        left: 8%;
+    }
+
+    #dinner-button{
+        left: 12%;
+    }
+
+    #beverages-button{
+        left: 16%;
+    }
+
+    #desserts-button{
+        left: 20%;
+    }
+
+    .breakfast-title{
+        position: relative;
+        top:1%;
+        left: 6%;
+    }
+
+
+    .breakfast-subtitle{
+        position: relative;
+        top:-2.5%;
+        left: 6%;
+    }
+    
+    .breakfast-jumbotron{
+        position: relative;
+        top: -2.5%;
+        width: 90%;
+    }
+
+    .breakfast-tiles{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .breakfast-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .breakfast-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .breakfast-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+    
+    /* lunch */
+
+    .lunch-menu{
+        position: relative;
+        top: 28%
+    }
+    .lunch-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 6%;
+    }
+    
+    .lunch-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .lunch-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .lunch-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .lunch-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .lunch-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+
+    /* dinner */
+
+    .dinner-menu{
+        position: relative;
+        top: 56%
+    }
+    .dinner-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 6%;
+    }
+    
+    .dinner-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .dinner-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .dinner-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .dinner-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .dinner-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+    /* drinks */
+
+    .drinks-menu{
+        position: relative;
+        top: 92%
+    }
+
+    .drinks-title{
+        position: relative;
+        top:-8%;
+        left: 4%;
+    }
+
+    .drinks-subtitle{
+        position: relative;
+        top:-11%;
+        left: 6%;
+    }
+    
+    .lunch-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .drinks-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .drinks-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .drinks-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .drinks-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+
+    /* desserts */
+
+       .desserts-menu{
+        position: relative;
+        top: 124%
+    }
+
+    .desserts-title{
+        position: relative;
+        top:-1%;
+        left: 4%;
+    }
+
+    .desserts-subtitle{
+        position: relative;
+        top:-4%;
+        left: 6%;
+    }
+    
+    .desserts-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .desserts-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .desserts-tile-1{
+        position: relative;
+        top: 8%;
+        left: 24%;
+    }
+    
+    .desserts-tile-2{
+        position: relative;
+        top: 12%;
+        left: 24%;
+    }
+    
+    .desserts-tile-3{
+        position: relative;
+        top: 16%;
+        left: 24%;
+    }
+}
+
+
+@media (min-width: 437px) and (max-width: 599.99px) {
+
+
+
+    .menu-container{
+        padding-bottom: 2800px;
+    }
+    
+    .menu-nav{
+        position: relative;
+        top: 64px;
+        left: 9%;
+    }
+
+    #breakfast-button{
+        left: 4%;
+    }
+
+    #lunch-button{
+        left: 8%;
+    }
+
+    #dinner-button{
+        left: 12%;
+    }
+
+    #beverages-button{
+        top:110%;
+        left: -24%;
+    }
+
+    #desserts-button{
+        top:60%;
+        left: 12%;
+    }
+
+    .breakfast-title{
+        position: relative;
+        top:4%;
+        left: 4%;
+    }
+
+
+    .breakfast-subtitle{
+        position: relative;
+        top: .5%;
+        font-size: 18px;
+        left: 4%;
+    }
+    
+    .breakfast-jumbotron{
+        position: relative;
+        top: .5%;
+        width: 90%;
+    }
+
+    .breakfast-tiles{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .breakfast-tile-1{
+        position: relative;
+        top: 20%;
+        left: 8%;
+    }
+    
+    .breakfast-tile-2{
+        position: relative;
+        top: 24%;
+        left: 8%;
+    }
+    
+    .breakfast-tile-3{
+        position: relative;
+        top: 28%;
+        left: 8%;
+    }
+    
+    /* lunch */
+
+    .lunch-menu{
+        position: relative;
+        top: 32%
+    }
+
+    .lunch-title{
+        position: relative;
+        top:0%;
+        left: 4%;
+    }
+
+    .lunch-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 4%;
+        font-size: 18px;
+    }
+    
+    .lunch-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .lunch-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .lunch-tile-1{
+        position: relative;
+        top: 4%;
+        left: 8%;
+    }
+    
+    .lunch-tile-2{
+        position: relative;
+        top: 8%;
+        left: 8%;
+    }
+    
+    .lunch-tile-3{
+        position: relative;
+        top: 12%;
+        left: 8%;
+    }
+
+    /* dinner */
+
+    .dinner-menu{
+        position: relative;
+        top: 56%
+    }
+
+    .dinner-title{
+        position: relative;
+        top:3%;
+        left: 4%;
+    }
+
+    .dinner-subtitle{
+        position: relative;
+        top:.5%;
+        left: 4%;
+        font-size: 18px;
+    }
+    
+    .dinner-jumbotron{
+        position: relative;
+        top: 0%;
+        width: 90%;
+    }
+
+    .dinner-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .dinner-tile-1{
+        position: relative;
+        top: 20%;
+        left: 8%;
+    }
+    
+    .dinner-tile-2{
+        position: relative;
+        top: 24%;
+        left: 8%;
+    }
+    
+    .dinner-tile-3{
+        position: relative;
+        top: 28%;
+        left: 8%;
+    }
+    /* drinks */
+
+    .drinks-menu{
+        position: relative;
+        top: 92%
+    }
+
+    .drinks-title{
+        position: relative;
+        top:-4%;
+        left: 4%;
+    }
+
+    .drinks-subtitle{
+        position: relative;
+        top:-6%;
+        left: 4%;
+        font-size: 18px;
+    }
+    
+    .drinks-jumbotron{
+        position: relative;
+        top: -6%;
+        width: 90%;
+    }
+
+    .drinks-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .drinks-tile-1{
+        position: relative;
+        top: 4%;
+        left: 8%;
+    }
+    
+    .drinks-tile-2{
+        position: relative;
+        top: 12%;
+        left: 8%;
+    }
+    
+    .drinks-tile-3{
+        position: relative;
+        top: 20%;
+        left: 8%;
+    }
+
+    /* desserts */
+
+       .desserts-menu{
+        position: relative;
+        top: 124%
+    }
+
+    .desserts-title{
+        position: relative;
+        top:-2%;
+        left: 4%;
+    }
+
+    .desserts-subtitle{
+        position: relative;
+        top:-5%;
+        font-size: 18px;
+        left: 4%;
+    }
+    
+    .desserts-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .desserts-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .desserts-tile-1{
+        position: relative;
+        top: 4%;
+        left: 8%;
+    }
+    
+    .desserts-tile-2{
+        position: relative;
+        top: 8%;
+        left: 8%;
+    }
+    
+    .desserts-tile-3{
+        position: relative;
+        top: 12%;
+        left: 8%;
+    }
+
+
+
+
+
+}
+@media (min-width: 100px) and (max-width: 436.99px) {
+
+    .menu-container{
+        padding-bottom: 2800px;
+    }
+    
+    .menu-nav{
+        position: relative;
+        top: 52px;
+        left: -2%;
+    }
+
+    #breakfast-button{
+        left: 4%;
+    }
+
+    #lunch-button{
+        left: 8%;
+    }
+
+    #dinner-button{
+        left: 12%;
+    }
+
+    #beverages-button{
+        top:60%;
+        left: 18%;
+    }
+
+    #desserts-button{
+        top:60%;
+        left: 24%;
+    }
+
+    .breakfast-title{
+        position: relative;
+        top:4%;
+        left: 8%;
+    }
+
+
+    .breakfast-subtitle{
+        position: relative;
+        top: .5%;
+        font-size: 18px;
+        left: 6%;
+    }
+    
+    .breakfast-jumbotron{
+        position: relative;
+        top: .5%;
+        width: 90%;
+    }
+
+    .breakfast-tiles{
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .breakfast-tile-1{
+        position: relative;
+        top: 20%;
+        left: -1.5%;
+    }
+    
+    .breakfast-tile-2{
+        position: relative;
+        top: 24%;
+        left: -1.5%;
+    }
+    
+    .breakfast-tile-3{
+        position: relative;
+        top: 28%;
+        left: -1.5%;
+    }
+    
+    /* lunch */
+
+    .lunch-menu{
+        position: relative;
+        top: 32%
+    }
+
+    .lunch-title{
+        position: relative;
+        top:0%;
+        left: 20%;
+    }
+
+    .lunch-subtitle{
+        position: relative;
+        top:-3.5%;
+        left: 22%;
+        font-size: 18px;
+    }
+    
+    .lunch-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .lunch-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .lunch-tile-1{
+        position: relative;
+        top: 4%;
+        left: -1.5%;
+    }
+    
+    .lunch-tile-2{
+        position: relative;
+        top: 8%;
+        left: -1.5%;
+    }
+    
+    .lunch-tile-3{
+        position: relative;
+        top: 12%;
+        left: -1.5%;
+    }
+
+    /* dinner */
+
+    .dinner-menu{
+        position: relative;
+        top: 56%
+    }
+
+    .dinner-title{
+        position: relative;
+        top:3%;
+        left: 20%;
+    }
+
+    .dinner-subtitle{
+        position: relative;
+        top:.5%;
+        left: 6%;
+        font-size: 16px;
+    }
+    
+    .dinner-jumbotron{
+        position: relative;
+        top: 0%;
+        width: 90%;
+    }
+
+    .dinner-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .dinner-tile-1{
+        position: relative;
+        top: 20%;
+        left: -1.5%;
+    }
+    
+    .dinner-tile-2{
+        position: relative;
+        top: 24%;
+        left: -1.5%;
+    }
+    
+    .dinner-tile-3{
+        position: relative;
+        top: 28%;
+        left: -1.5%;
+    }
+    /* drinks */
+
+    .drinks-menu{
+        position: relative;
+        top: 92%
+    }
+
+    .drinks-title{
+        position: relative;
+        top:-4%;
+        left: 8%;
+    }
+
+    .drinks-subtitle{
+        position: relative;
+        top:-6%;
+        left: 24%;
+        font-size: 18px;
+    }
+    
+    .drinks-jumbotron{
+        position: relative;
+        top: -6%;
+        width: 90%;
+    }
+
+    .drinks-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .drinks-tile-1{
+        position: relative;
+        top: 4%;
+        left: -1.5%;
+    }
+    
+    .drinks-tile-2{
+        position: relative;
+        top: 12%;
+        left: -1.5%;
+    }
+    
+    .drinks-tile-3{
+        position: relative;
+        top: 20%;
+        left: -1.5%;
+    }
+
+    /* desserts */
+
+       .desserts-menu{
+        position: relative;
+        top: 124%
+    }
+
+    .desserts-title{
+        position: relative;
+        top:-2%;
+        left: 4%;
+    }
+
+    .desserts-subtitle{
+        position: relative;
+        top:-5%;
+        font-size: 18px;
+        left: 6%;
+    }
+    
+    .desserts-jumbotron{
+        position: relative;
+        top: -4%;
+        width: 90%;
+    }
+
+    .desserts-tiles{
+        position: relative;
+        top: -4%;
+        display: grid;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .desserts-tile-1{
+        position: relative;
+        top: 4%;
+        left: -1.5%;
+    }
+    
+    .desserts-tile-2{
+        position: relative;
+        top: 8%;
+        left: -1.5%;
+    }
+    
+    .desserts-tile-3{
+        position: relative;
+        top: 12%;
+        left: -1.5%;
+    }
+}
